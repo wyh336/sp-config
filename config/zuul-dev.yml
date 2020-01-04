@@ -20,9 +20,9 @@ eureka:
 zuul:
   retryable: true
 #路由配置可以省略
-zuul:
-  routes:
-    item-service: /item-service/**
-    user-service: /user-service/**
-    order-service: /order-service/**
+#zuul:
+#  routes:
+#    item-service: /item-service/**
+#    user-service: /user-service/**
+#    order-service: /order-service/**
 
